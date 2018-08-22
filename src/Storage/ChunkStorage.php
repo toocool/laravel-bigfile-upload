@@ -1,6 +1,6 @@
 <?php
 
-namespace Pion\Laravel\ChunkUpload\Storage;
+namespace BigFileUpload\Laravel\ChunkUpload\Storage;
 
 use Illuminate\Filesystem\FilesystemAdapter;
 use Illuminate\Support\Collection;

@@ -1,11 +1,15 @@
 {
-  "name": "pion/laravel-chunk-upload",
+  "name": "toocool/laravel-bigfile-upload",
   "description": "Service for chunked upload with several js providers",
   "license": "MIT",
   "authors": [
     {
       "name": "Martin Kluska",
       "email": "martin@kluska.cz"
+    },
+    {
+      "name": "Shpetim Islami",
+      "email": "draodakum@gmail.com"
     }
   ],
   "scripts": {
@@ -26,7 +30,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Pion\\Laravel\\ChunkUpload\\": "src/"
+      "BigFileUpload\\Laravel\\ChunkUpload\\": "src/"
     }
   },
   "autoload-dev": {
@@ -37,7 +41,7 @@
   "extra":{
      "laravel":{
         "providers":[
-           "Pion\\Laravel\\ChunkUpload\\Providers\\ChunkUploadServiceProvider"
+           "BigFileUpload\\Laravel\\ChunkUpload\\Providers\\ChunkUploadServiceProvider"
         ]
      }
   },
