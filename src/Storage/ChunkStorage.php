@@ -6,8 +6,8 @@ use Illuminate\Filesystem\FilesystemAdapter;
 use Illuminate\Support\Collection;
 use League\Flysystem\Adapter\Local;
 use League\Flysystem\FilesystemInterface;
-use Pion\Laravel\ChunkUpload\ChunkFile;
-use Pion\Laravel\ChunkUpload\Config\AbstractConfig;
+use BigFileUpload\Laravel\ChunkUpload\ChunkFile;
+use BigFileUpload\Laravel\ChunkUpload\Config\AbstractConfig;
 use RuntimeException;
 
 class ChunkStorage

@@ -1,9 +1,9 @@
 <?php
 namespace BigFileUpload\Laravel\ChunkUpload\Handler;
 
-use Pion\Laravel\ChunkUpload\Config\AbstractConfig;
-use Pion\Laravel\ChunkUpload\Save\SingleSave;
-use Pion\Laravel\ChunkUpload\Storage\ChunkStorage;
+use BigFileUpload\Laravel\ChunkUpload\Config\AbstractConfig;
+use BigFileUpload\Laravel\ChunkUpload\Save\SingleSave;
+use BigFileUpload\Laravel\ChunkUpload\Storage\ChunkStorage;
 
 /**
  * Class SingleUploadHandler

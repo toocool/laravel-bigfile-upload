@@ -6,12 +6,12 @@ use Illuminate\Foundation\Application;
 use Illuminate\Http\Request;
 use Illuminate\Support\Arr;
 use Illuminate\Support\ServiceProvider;
-use Pion\Laravel\ChunkUpload\Commands\ClearChunksCommand;
-use Pion\Laravel\ChunkUpload\Config\AbstractConfig;
-use Pion\Laravel\ChunkUpload\Config\FileConfig;
-use Pion\Laravel\ChunkUpload\Handler\HandlerFactory;
-use Pion\Laravel\ChunkUpload\Receiver\FileReceiver;
-use Pion\Laravel\ChunkUpload\Storage\ChunkStorage;
+use BigFileUpload\Laravel\ChunkUpload\Commands\ClearChunksCommand;
+use BigFileUpload\Laravel\ChunkUpload\Config\AbstractConfig;
+use BigFileUpload\Laravel\ChunkUpload\Config\FileConfig;
+use BigFileUpload\Laravel\ChunkUpload\Handler\HandlerFactory;
+use BigFileUpload\Laravel\ChunkUpload\Receiver\FileReceiver;
+use BigFileUpload\Laravel\ChunkUpload\Storage\ChunkStorage;
 use Storage;
 
 class ChunkUploadServiceProvider extends ServiceProvider

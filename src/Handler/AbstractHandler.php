@@ -4,9 +4,9 @@ namespace BigFileUpload\Laravel\ChunkUpload\Handler;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\UploadedFile;
-use Pion\Laravel\ChunkUpload\Config\AbstractConfig;
-use Pion\Laravel\ChunkUpload\Save\AbstractSave;
-use Pion\Laravel\ChunkUpload\Storage\ChunkStorage;
+use BigFileUpload\Laravel\ChunkUpload\Config\AbstractConfig;
+use BigFileUpload\Laravel\ChunkUpload\Save\AbstractSave;
+use BigFileUpload\Laravel\ChunkUpload\Storage\ChunkStorage;
 use Session;
 
 /**

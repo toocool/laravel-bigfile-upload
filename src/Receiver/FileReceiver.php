@@ -2,14 +2,14 @@
 namespace BigFileUpload\Laravel\ChunkUpload\Receiver;
 
 use Illuminate\Http\Request;
-use Pion\Laravel\ChunkUpload\Config\AbstractConfig;
-use Pion\Laravel\ChunkUpload\Exceptions\UploadFailedException;
-use Pion\Laravel\ChunkUpload\Handler\AbstractHandler;
-use Pion\Laravel\ChunkUpload\Save\AbstractSave;
-use Pion\Laravel\ChunkUpload\Save\ChunkSave;
-use Pion\Laravel\ChunkUpload\Save\SingleSave;
+use BigFileUpload\Laravel\ChunkUpload\Config\AbstractConfig;
+use BigFileUpload\Laravel\ChunkUpload\Exceptions\UploadFailedException;
+use BigFileUpload\Laravel\ChunkUpload\Handler\AbstractHandler;
+use BigFileUpload\Laravel\ChunkUpload\Save\AbstractSave;
+use BigFileUpload\Laravel\ChunkUpload\Save\ChunkSave;
+use BigFileUpload\Laravel\ChunkUpload\Save\SingleSave;
 use Illuminate\Http\UploadedFile;
-use Pion\Laravel\ChunkUpload\Storage\ChunkStorage;
+use BigFileUpload\Laravel\ChunkUpload\Storage\ChunkStorage;
 
 class FileReceiver
 {

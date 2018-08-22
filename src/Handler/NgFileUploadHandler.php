@@ -2,7 +2,7 @@
 
 namespace BigFileUpload\Laravel\ChunkUpload\Handler;
 
-use Pion\Laravel\ChunkUpload\Exceptions\ChunkInvalidValueException;
+use BigFileUpload\Laravel\ChunkUpload\Exceptions\ChunkInvalidValueException;
 use Illuminate\Http\Request;
 
 /**

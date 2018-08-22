@@ -3,8 +3,8 @@ namespace BigFileUpload\Laravel\ChunkUpload\Handler;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\UploadedFile;
-use Pion\Laravel\ChunkUpload\Config\AbstractConfig;
-use Pion\Laravel\ChunkUpload\Handler\Traits\HandleParallelUploadTrait;
+use BigFileUpload\Laravel\ChunkUpload\Config\AbstractConfig;
+use BigFileUpload\Laravel\ChunkUpload\Handler\Traits\HandleParallelUploadTrait;
 
 class ResumableJSUploadHandler extends ChunksInRequestUploadHandler
 {

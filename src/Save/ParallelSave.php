@@ -3,14 +3,14 @@
 namespace BigFileUpload\Laravel\ChunkUpload\Save;
 
 use Illuminate\Http\UploadedFile;
-use Pion\Laravel\ChunkUpload\Config\AbstractConfig;
-use Pion\Laravel\ChunkUpload\Exceptions\ChunkSaveException;
-use Pion\Laravel\ChunkUpload\Exceptions\MissingChunkFilesException;
-use Pion\Laravel\ChunkUpload\FileMerger;
-use Pion\Laravel\ChunkUpload\Handler\AbstractHandler;
-use Pion\Laravel\ChunkUpload\ChunkFile;
-use Pion\Laravel\ChunkUpload\Handler\Traits\HandleParallelUploadTrait;
-use Pion\Laravel\ChunkUpload\Storage\ChunkStorage;
+use BigFileUpload\Laravel\ChunkUpload\Config\AbstractConfig;
+use BigFileUpload\Laravel\ChunkUpload\Exceptions\ChunkSaveException;
+use BigFileUpload\Laravel\ChunkUpload\Exceptions\MissingChunkFilesException;
+use BigFileUpload\Laravel\ChunkUpload\FileMerger;
+use BigFileUpload\Laravel\ChunkUpload\Handler\AbstractHandler;
+use BigFileUpload\Laravel\ChunkUpload\ChunkFile;
+use BigFileUpload\Laravel\ChunkUpload\Handler\Traits\HandleParallelUploadTrait;
+use BigFileUpload\Laravel\ChunkUpload\Storage\ChunkStorage;
 
 /**
  * Class ParallelSave

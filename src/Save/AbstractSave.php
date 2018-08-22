@@ -1,8 +1,8 @@
 <?php
 namespace BigFileUpload\Laravel\ChunkUpload\Save;
 
-use Pion\Laravel\ChunkUpload\Config\AbstractConfig;
-use Pion\Laravel\ChunkUpload\Handler\AbstractHandler;
+use BigFileUpload\Laravel\ChunkUpload\Config\AbstractConfig;
+use BigFileUpload\Laravel\ChunkUpload\Handler\AbstractHandler;
 use Symfony\Component\HttpFoundation\File\File;
 use Illuminate\Http\UploadedFile;
 

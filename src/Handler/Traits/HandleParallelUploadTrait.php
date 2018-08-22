@@ -2,9 +2,9 @@
 
 namespace BigFileUpload\Laravel\ChunkUpload\Handler\Traits;
 
-use Pion\Laravel\ChunkUpload\Exceptions\ChunkSaveException;
-use Pion\Laravel\ChunkUpload\Save\ParallelSave;
-use Pion\Laravel\ChunkUpload\Storage\ChunkStorage;
+use BigFileUpload\Laravel\ChunkUpload\Exceptions\ChunkSaveException;
+use BigFileUpload\Laravel\ChunkUpload\Save\ParallelSave;
+use BigFileUpload\Laravel\ChunkUpload\Storage\ChunkStorage;
 
 trait HandleParallelUploadTrait
 {

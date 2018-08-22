@@ -3,10 +3,10 @@ namespace BigFileUpload\Laravel\ChunkUpload\Handler;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\UploadedFile;
-use Pion\Laravel\ChunkUpload\Config\AbstractConfig;
-use Pion\Laravel\ChunkUpload\Exceptions\ChunkSaveException;
-use Pion\Laravel\ChunkUpload\Save\ChunkSave;
-use Pion\Laravel\ChunkUpload\Storage\ChunkStorage;
+use BigFileUpload\Laravel\ChunkUpload\Config\AbstractConfig;
+use BigFileUpload\Laravel\ChunkUpload\Exceptions\ChunkSaveException;
+use BigFileUpload\Laravel\ChunkUpload\Save\ChunkSave;
+use BigFileUpload\Laravel\ChunkUpload\Storage\ChunkStorage;
 
 /**
  * Class ChunksInRequestUploadHandler

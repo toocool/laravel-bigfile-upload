@@ -2,12 +2,12 @@
 
 namespace BigFileUpload\Laravel\ChunkUpload\Save;
 
-use Pion\Laravel\ChunkUpload\Config\AbstractConfig;
-use Pion\Laravel\ChunkUpload\Exceptions\ChunkSaveException;
-use Pion\Laravel\ChunkUpload\FileMerger;
-use Pion\Laravel\ChunkUpload\Handler\AbstractHandler;
+use BigFileUpload\Laravel\ChunkUpload\Config\AbstractConfig;
+use BigFileUpload\Laravel\ChunkUpload\Exceptions\ChunkSaveException;
+use BigFileUpload\Laravel\ChunkUpload\FileMerger;
+use BigFileUpload\Laravel\ChunkUpload\Handler\AbstractHandler;
 use Illuminate\Http\UploadedFile;
-use Pion\Laravel\ChunkUpload\Storage\ChunkStorage;
+use BigFileUpload\Laravel\ChunkUpload\Storage\ChunkStorage;
 
 class ChunkSave extends AbstractSave
 {

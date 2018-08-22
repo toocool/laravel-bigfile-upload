@@ -2,7 +2,7 @@
 
 namespace BigFileUpload\Laravel\ChunkUpload;
 
-use Pion\Laravel\ChunkUpload\Exceptions\ChunkSaveException;
+use BigFileUpload\Laravel\ChunkUpload\Exceptions\ChunkSaveException;
 
 class FileMerger
 {
