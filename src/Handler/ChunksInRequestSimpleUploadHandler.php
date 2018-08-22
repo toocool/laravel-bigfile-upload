@@ -1,5 +1,5 @@
 <?php
-namespace Pion\Laravel\ChunkUpload\Handler;
+namespace BigFileUpload\Laravel\ChunkUpload\Handler;
 
 /**
  * Class ChunksInRequestSimpleUploadHandler

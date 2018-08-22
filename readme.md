@@ -1,13 +1,8 @@
 # Laravel chunked upload
 
-[![Total Downloads](https://poser.pugx.org/pion/laravel-chunk-upload/downloads?format=flat)](https://packagist.org/packages/pion/laravel-chunk-upload)
-[![Build Status](https://travis-ci.org/pionl/laravel-chunk-upload.svg?branch=master)](https://travis-ci.org/pionl/laravel-chunk-upload)
-[![Latest Stable Version](https://poser.pugx.org/pion/laravel-chunk-upload/v/stable?format=flat)](https://packagist.org/packages/pion/laravel-chunk-upload)
-[![Latest Unstable Version](https://poser.pugx.org/pion/laravel-chunk-upload/v/unstable?format=flat)](https://packagist.org/packages/pion/laravel-chunk-upload)
-[![License](https://poser.pugx.org/pion/laravel-chunk-upload/license)](https://packagist.org/packages/pion/laravel-chunk-upload)
-
 ## Introduction
 
+forked from pionl/laravel-chunk-upload
 Easy to use service/library for chunked upload with supporting multiple JS libraries on top of Laravel's file upload with low memory footprint in mind. Currently supports **Laravel 5+ (with 5.5 Auto discovery)** with features as [cross domains requests](https://github.com/pionl/laravel-chunk-upload/wiki/cross-domain-requests), automatic clean schedule and easy usage.
 
 
@@ -16,19 +11,19 @@ Easy to use service/library for chunked upload with supporting multiple JS libra
 **1. Install via composer**
 
 ```
-composer require pion/laravel-chunk-upload
+composer require toocool/laravel-bigfile-upload
 ```
     
 **2. Add the service provider (Laravel 5.4 and below - supports Auto discovery)**
 
 ```php
-\Pion\Laravel\ChunkUpload\Providers\ChunkUploadServiceProvider::class
+\BigFileUpload\Laravel\ChunkUpload\Providers\ChunkUploadServiceProvider::class
 ```    
 
 **3. Publish the config (Laravel 5.2 and above, optional)**
 
 ```
-php artisan vendor:publish --provider="Pion\Laravel\ChunkUpload\Providers\ChunkUploadServiceProvider"
+php artisan vendor:publish --provider="BigFileUpload\Laravel\ChunkUpload\Providers\ChunkUploadServiceProvider"
 ```
 
 

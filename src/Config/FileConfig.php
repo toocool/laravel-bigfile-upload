@@ -1,5 +1,5 @@
 <?php
-namespace Pion\Laravel\ChunkUpload\Config;
+namespace BigFileUpload\Laravel\ChunkUpload\Config;
 
 /**
  * Class FileConfig

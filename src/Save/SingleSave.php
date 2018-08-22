@@ -1,5 +1,5 @@
 <?php
-namespace Pion\Laravel\ChunkUpload\Save;
+namespace BigFileUpload\Laravel\ChunkUpload\Save;
 
 class SingleSave extends AbstractSave
 {

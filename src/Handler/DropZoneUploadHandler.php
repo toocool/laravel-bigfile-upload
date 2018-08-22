@@ -1,5 +1,5 @@
 <?php
-namespace Pion\Laravel\ChunkUpload\Handler;
+namespace BigFileUpload\Laravel\ChunkUpload\Handler;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\UploadedFile;
@@ -10,12 +10,12 @@ class DropZoneUploadHandler extends ChunksInRequestUploadHandler
 {
     use HandleParallelUploadTrait;
 
-    const CHUNK_UUID_INDEX = 'dzuuid';
-    const CHUNK_INDEX = 'dzchunkindex';
-    const CHUNK_FILE_SIZE_INDEX = 'dztotalfilesize';
-    const CHUNK_SIZE_INDEX = 'dzchunksize';
-    const CHUNK_TOTAL_INDEX = 'dztotalchunkcount';
-    const CHUNK_OFFSET_INDEX = 'dzchunkbyteoffset';
+    const CHUNK_UUID_INDEX = 'dzUuid';
+    const CHUNK_INDEX = 'dzChunkIndex';
+    const CHUNK_FILE_SIZE_INDEX = 'dzTotalFileSize';
+    const CHUNK_SIZE_INDEX = 'dzChunkSize';
+    const CHUNK_TOTAL_INDEX = 'dzTotalChunkCount';
+    const CHUNK_OFFSET_INDEX = 'dzChunkByteOffset';
 
     /**
      * The DropZone file uuid

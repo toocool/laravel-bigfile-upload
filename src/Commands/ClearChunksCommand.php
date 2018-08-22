@@ -1,5 +1,5 @@
 <?php
-namespace Pion\Laravel\ChunkUpload\Commands;
+namespace BigFileUpload\Laravel\ChunkUpload\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;

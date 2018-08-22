@@ -1,5 +1,5 @@
 <?php
-namespace Pion\Laravel\ChunkUpload\Handler;
+namespace BigFileUpload\Laravel\ChunkUpload\Handler;
 
 use Pion\Laravel\ChunkUpload\Config\AbstractConfig;
 use Pion\Laravel\ChunkUpload\Save\SingleSave;

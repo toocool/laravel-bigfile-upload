@@ -1,5 +1,5 @@
 <?php
-namespace Pion\Laravel\ChunkUpload\Receiver;
+namespace BigFileUpload\Laravel\ChunkUpload\Receiver;
 
 use Illuminate\Http\Request;
 use Pion\Laravel\ChunkUpload\Config\AbstractConfig;

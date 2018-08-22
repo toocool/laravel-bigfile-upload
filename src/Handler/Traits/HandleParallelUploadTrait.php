@@ -1,6 +1,6 @@
 <?php
 
-namespace Pion\Laravel\ChunkUpload\Handler\Traits;
+namespace BigFileUpload\Laravel\ChunkUpload\Handler\Traits;
 
 use Pion\Laravel\ChunkUpload\Exceptions\ChunkSaveException;
 use Pion\Laravel\ChunkUpload\Save\ParallelSave;

@@ -1,5 +1,5 @@
 <?php
-namespace Pion\Laravel\ChunkUpload;
+namespace BigFileUpload\Laravel\ChunkUpload;
 
 use Pion\Laravel\ChunkUpload\Storage\ChunkStorage;
 
