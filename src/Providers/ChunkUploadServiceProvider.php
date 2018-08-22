@@ -1,5 +1,5 @@
 <?php
-namespace Pion\Laravel\ChunkUpload\Providers;
+namespace BigFileUpload\Laravel\ChunkUpload\Providers;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Application;
